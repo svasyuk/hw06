@@ -1,0 +1,33 @@
+.joke__title {
+    padding: 20px 50px;
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #fcdf02 0%, #c2bc8c 66.15%);
+}
+
+.joke__container {
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #5fbd21 0%, #b6f591 66.15%);
+}
+
+.joke__list {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.joke__item {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #5fbd21 0%, #b6f591 66.15%);
+}
+
+.joke__error {
+    background: linear-gradient(90deg, #bd2621 0%, #f59d91 66.15%);
+}
